@@ -1,0 +1,159 @@
+@media only screen and (max-width: 350px){
+.contact{
+    font-size: 15px;
+}
+}
+
+   
+   /* Small devices (portrait tablets and large phones, 600px and up) */
+   @media only screen and (max-width: 599px) {
+  
+.contact{
+      display: flex;
+      justify-content: center;
+      padding: 5px 10px 5px 0;
+  }
+
+.us img{
+width: 50px;
+height: 50px;
+}
+
+.buttok .btn{
+    width: 15px;
+    height: 15px;
+    font-size: 20px;
+}
+
+.us{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.us h3{
+    font-size: 18px;
+}
+
+.textarea h2{
+    font-size: 30px;
+}
+
+.textarea p{
+    font-size: 16px;
+}
+
+.strip{
+    margin: 0 0 20px 0;
+}
+  
+.our h2{
+font-size: 30px;
+}
+
+.our p{
+    font-size: 16px;
+}
+
+}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 767px) {
+  
+.header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+        
+    }
+
+
+header {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+
+.get .ex{
+    display: none;
+  }
+  
+.get h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.get .input{
+      height: 100%;
+      width: 300px;
+  }
+
+.get input{
+    width: 100%;
+}
+
+.getin input{
+    width: 100%;
+}
+
+
+
+.our img{
+    width: 100%;
+}
+
+.step{
+    display: none;
+}
+
+.steph{
+    display: none;
+}
+
+.step1{
+    display: flex;
+    flex-direction: column;
+}
+
+.step2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.step3{
+    display: flex;
+    flex-direction: column;
+}
+
+.step4{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+}
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 991px) {
+  .get h2{
+      font-size: 36px;
+
+  }
+
+  .list>ul{
+      transform: translateX(0);
+  }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1025px) {
+      .ourwork .content{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          max-width: 700px;
+
+      }
+  }
