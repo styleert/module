@@ -4,6 +4,7 @@ body{
     color: #5c5c5c;
     line-height: 1.2;
     max-width: 1400px;
+    margin: 0 auto;
 }
 /* all content */
 .wrapper{
@@ -27,17 +28,6 @@ body{
    height: 1.5em;
 }
 
-.contact>.tel>a{
-    text-decoration: none;
-    color: #2a2a2a;
-    padding: 0 0 0 0;
-}
-
-.contact>.email>a{
-    text-decoration: none;
-    color: #2a2a2a;
-}
-
 .icon-home::before{
         content: '\e900';
     }
@@ -54,14 +44,19 @@ body{
     padding: 5px;
     border-radius: 5%;
     margin-left: 10px;
-    
 }   
+
+.contact a{
+    color: #424242;
+    text-decoration: none;
+}
 
 .gstr{
     width: 1px;
     height: 43px;
     background-color: #e2e2e2;
     margin: 0 19px 0 6px ;
+    transform: translateX(19px);
 }
 
 /* header with list and button */
@@ -88,6 +83,12 @@ header button{
     display: flex;
     justify-content: center;
     margin-bottom: 19px;
+    text-decoration: none;
+}
+
+.button a{
+    text-decoration: none;
+    color: #424242;
 }
 
 .header .logo{
@@ -427,7 +428,6 @@ transform: translateX(-10px);
     text-align: left;
     box-shadow: 0 0 5px #e2e2e2;
     width: 100%;
-    
 }
 .steps .step2{
     display: flex;
@@ -445,7 +445,14 @@ transform: translateX(-10px);
     text-align: left;
     box-shadow: 0 0 5px #e2e2e2;
     width: 100%;
+    
 }
+
+.step3 h2{
+    transform: translateX(5px);
+}
+
+
 .steps .step4{
     display: flex;
     flex-direction: row-reverse;
@@ -551,6 +558,11 @@ transform: translateX(-10px);
     font-family: sans-serif;
 }
 
+.ex:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
 .circle{
     display: flex;
     justify-content: center;
@@ -601,7 +613,11 @@ transform: translateX(-10px);
      border-radius: 5px;
      border: none;
      transform: translateY(-14px);
-     
+}
+
+.input>button a{
+    text-decoration: none;
+    color: #424242;
 }
 
 form input{
@@ -685,11 +701,15 @@ font-size: 23px;
 
 .getin button{
     background-color: #2a2a2a;
-    color: #ffffff;
     border: solid 2px #515151;
     width: 149px;
     height: 49px;
     font-size: 17px;
+}
+
+.getin button a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .getin input{
