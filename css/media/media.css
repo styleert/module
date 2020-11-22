@@ -14,10 +14,18 @@
       padding: 5px 10px 5px 0;
   }
 
-  .facebook{
+.facebook{
     text-align: center; 
-    padding-bottom: 125px;
+    padding:50px 0 50px 0;
     transform:  translateX(0);
+}
+
+.landing{
+    padding-bottom: 50px;
+}
+
+.ads{
+    padding-bottom: 50px;
 }
 
 .us img{
@@ -48,7 +56,7 @@ height: 50px;
 
 .us p{
     font-size: 12px;
-    text-align: ;
+    padding: 20px;
 }
 
 .textarea h2{
@@ -68,9 +76,10 @@ font-size: 30px;
 }
 
 .our p{
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
+
 
 }
   
@@ -81,10 +90,8 @@ font-size: 30px;
     display: flex;
     align-items: center;
     text-align: center;
-    flex-direction: column;
-        
+    flex-direction: column;   
     }
-
 
 header {
         display: flex;
@@ -92,6 +99,9 @@ header {
         align-content: center;
     }
 
+    .list>ul{
+        padding: 0 0 5px 0;
+    }
 
 .get .ex{
     display: none;
@@ -134,12 +144,12 @@ header {
 .step1{
     display: flex;
     flex-direction: column;
+    text-align:center ;
 }
 
 .step2{
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .step3{
@@ -151,6 +161,10 @@ header {
     display: flex;
     flex-wrap: wrap;
     
+}
+
+.steptext{
+    text-align:center;
 }
 
 }
