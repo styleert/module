@@ -15,6 +15,17 @@ body{
     max-width: 1025px;
     margin: 0 auto;
 }
+
+.textarea>h2{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 60px 0 5px 0;
+}
+
+.textarea>p{
+    font-size: 20px;
+    
+}
 /* tel and mail */
 .contact{
    display: flex;
@@ -363,49 +374,30 @@ letter-spacing: 2px;
     padding-top:20px ;
 }
 
-.textarea>h2{
-    font-size: 36px;
-    font-weight: bold;
-    padding: 60px 0 5px 0;
-}
-
-.textarea>p{
-    font-size: 20px;
-    
-}
-
 .steps{
 display: flex;
 flex-direction: column;
 min-width: 10%;
-transform: translateX(-10px) translateY(-10px);
+transform: translateX(-10px) translateY(-20px);
 }
 
 .steps h2{
     font-weight: 700;
+    font-size: 60px;
 }
 
-
-.step{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #fff;
-    font-family: "Helvetica - Normal";
-    position: absolute;
-    width: 101px;
-    height: 101px;
-    border: 2px solid #ffffff;
-    background-color: #de2b24;
-    border-radius: 5px;
+.steps p{
+    font-size: 22px;
+    transform: translateY(-10px);
 }
 
+.step,
 .steph{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Helvetica - Normal";
     color: #fff;
+    font-family: "Helvetica - Nue";
     position: absolute;
     width: 101px;
     height: 101px;
@@ -419,33 +411,12 @@ transform: translateX(-10px) translateY(-10px);
     padding: 0 50px 0 0 ;
 }
 
-.steph>h2{
-    font-size: 60px;
-}
-.steph>h2,.steph>p,
-.step>h2,.step>p{
-    width: 38px;
-    height: 58px;
-}
-
-.steph>p{
-    font-size: 22px;
-}
-
 .steph{
-    transform: translateY(70px) translateX(-293px);
-}
-
-.step>h2{
-    font-size:60px;
-}
-
-.step>p{
-    font-size: 22px;
+    transform: translateY(60%) translateX(-280%);
 }
 
 .step{
-    transform: translateX(285px) translateY(60px);
+    transform: translateX(270%) translateY(60%);
 }
 
 .steps .step1,
@@ -469,25 +440,17 @@ transform: translateX(-10px) translateY(-10px);
     width: 100%;
 }
 
-.step3 h2{
-    transform: translateX(5px);
-}
-
 .steptext{
-    font-size: 14px;
     padding: 70px;
-    
 }
  .steptext>h3{
      font-weight: bold;
      font-size: 18px;
-     margin: 0 0 10px 0;
+     margin: 0 0 15px 0;
  }
  
  .steptext>p{
-
-     font-size: 15px;
-
+     font-size: 14px;
  }
 /* section4 */
 .ourwork{
